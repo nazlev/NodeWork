@@ -15,7 +15,7 @@ const colorPrint = (num) => {
 }
 
 if (isNaN(from) || isNaN(to)) { 
-    console.error(colors.red('Incorrected numbers'))
+    console.error(colors.red('Incorrected numbers!'))
     process.exit(0)
 }
 
@@ -32,6 +32,7 @@ const isPrime = (num) => {
     return true
 }
  
+
 let flag = false
 let count = from
 while(count <= to) {
@@ -43,5 +44,5 @@ while(count <= to) {
 }
 
 if(!flag) {
-    console.log(red('No digital diapazone'))
+    console.log(red('No digital diapazone!'))
 }
